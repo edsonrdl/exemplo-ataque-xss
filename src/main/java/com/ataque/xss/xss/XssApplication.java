@@ -8,6 +8,7 @@ public class XssApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(XssApplication.class, args);
+		System.out.print("iniciou a api xss");
 	}
 
 }
